@@ -7,19 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4D49C2F2A2BF07D00536628 /* splineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C2E2A2BF07D00536628 /* splineApp.swift */; };
-		B4D49C312A2BF07D00536628 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C302A2BF07D00536628 /* ContentView.swift */; };
 		B4D49C332A2BF07E00536628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D49C322A2BF07E00536628 /* Assets.xcassets */; };
 		B4D49C372A2BF07E00536628 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D49C362A2BF07E00536628 /* Preview Assets.xcassets */; };
+		B4D49C4A2A2BF4C000536628 /* splineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C492A2BF4C000536628 /* splineApp.swift */; };
+		B4D49C4E2A2BF52500536628 /* DataIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C4C2A2BF52500536628 /* DataIn.swift */; };
+		B4D49C4F2A2BF52500536628 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C4D2A2BF52500536628 /* DataProvider.swift */; };
+		B4D49C532A2BF52A00536628 /* Compairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C522A2BF52A00536628 /* Compairing.swift */; };
+		B4D49C542A2BF52A00536628 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C512A2BF52A00536628 /* Calculator.swift */; };
+		B4D49C552A2BF52A00536628 /* Interpolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C502A2BF52A00536628 /* Interpolate.swift */; };
+		B4D49C5A2A2BF53400536628 /* DecodableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C592A2BF53400536628 /* DecodableKey.swift */; };
+		B4D49C5B2A2BF53400536628 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C572A2BF53400536628 /* Utils.swift */; };
+		B4D49C5C2A2BF53400536628 /* DecodableIgnore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C582A2BF53400536628 /* DecodableIgnore.swift */; };
+		B4D49C662A2BF54000536628 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C5D2A2BF54000536628 /* DataView.swift */; };
+		B4D49C672A2BF54000536628 /* DataEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C5E2A2BF54000536628 /* DataEditor.swift */; };
+		B4D49C682A2BF54000536628 /* PairXYRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C622A2BF54000536628 /* PairXYRow.swift */; };
+		B4D49C692A2BF54000536628 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C632A2BF54000536628 /* ContentView.swift */; };
+		B4D49C6A2A2BF54000536628 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C602A2BF54000536628 /* ChartView.swift */; };
+		B4D49C6B2A2BF54000536628 /* DynamicStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C5F2A2BF54000536628 /* DynamicStack.swift */; };
+		B4D49C6C2A2BF54000536628 /* DataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C642A2BF54000536628 /* DataRow.swift */; };
+		B4D49C6D2A2BF54000536628 /* AboutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C652A2BF54000536628 /* AboutApp.swift */; };
+		B4D49C6E2A2BF54000536628 /* MoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D49C612A2BF54000536628 /* MoreInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4073BF52AB4A66F00570F64 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B4D49C2B2A2BF07D00536628 /* spline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spline.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4D49C2E2A2BF07D00536628 /* splineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splineApp.swift; sourceTree = "<group>"; };
-		B4D49C302A2BF07D00536628 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4D49C322A2BF07E00536628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4D49C342A2BF07E00536628 /* spline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = spline.entitlements; sourceTree = "<group>"; };
 		B4D49C362A2BF07E00536628 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4D49C492A2BF4C000536628 /* splineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splineApp.swift; sourceTree = "<group>"; };
+		B4D49C4C2A2BF52500536628 /* DataIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataIn.swift; sourceTree = "<group>"; };
+		B4D49C4D2A2BF52500536628 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		B4D49C502A2BF52A00536628 /* Interpolate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolate.swift; sourceTree = "<group>"; };
+		B4D49C512A2BF52A00536628 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		B4D49C522A2BF52A00536628 /* Compairing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compairing.swift; sourceTree = "<group>"; };
+		B4D49C562A2BF53000536628 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B4D49C572A2BF53400536628 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B4D49C582A2BF53400536628 /* DecodableIgnore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableIgnore.swift; sourceTree = "<group>"; };
+		B4D49C592A2BF53400536628 /* DecodableKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableKey.swift; sourceTree = "<group>"; };
+		B4D49C5D2A2BF54000536628 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
+		B4D49C5E2A2BF54000536628 /* DataEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEditor.swift; sourceTree = "<group>"; };
+		B4D49C5F2A2BF54000536628 /* DynamicStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStack.swift; sourceTree = "<group>"; };
+		B4D49C602A2BF54000536628 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		B4D49C612A2BF54000536628 /* MoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoView.swift; sourceTree = "<group>"; };
+		B4D49C622A2BF54000536628 /* PairXYRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairXYRow.swift; sourceTree = "<group>"; };
+		B4D49C632A2BF54000536628 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4D49C642A2BF54000536628 /* DataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRow.swift; sourceTree = "<group>"; };
+		B4D49C652A2BF54000536628 /* AboutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +70,7 @@
 		B4D49C222A2BF07D00536628 = {
 			isa = PBXGroup;
 			children = (
+				B4073BF52AB4A66F00570F64 /* README.md */,
 				B4D49C2D2A2BF07D00536628 /* spline */,
 				B4D49C2C2A2BF07D00536628 /* Products */,
 			);
@@ -52,10 +87,27 @@
 		B4D49C2D2A2BF07D00536628 /* spline */ = {
 			isa = PBXGroup;
 			children = (
-				B4D49C2E2A2BF07D00536628 /* splineApp.swift */,
-				B4D49C302A2BF07D00536628 /* ContentView.swift */,
 				B4D49C322A2BF07E00536628 /* Assets.xcassets */,
 				B4D49C342A2BF07E00536628 /* spline.entitlements */,
+				B4D49C492A2BF4C000536628 /* splineApp.swift */,
+				B4D49C4C2A2BF52500536628 /* DataIn.swift */,
+				B4D49C4D2A2BF52500536628 /* DataProvider.swift */,
+				B4D49C512A2BF52A00536628 /* Calculator.swift */,
+				B4D49C522A2BF52A00536628 /* Compairing.swift */,
+				B4D49C502A2BF52A00536628 /* Interpolate.swift */,
+				B4D49C562A2BF53000536628 /* data.json */,
+				B4D49C582A2BF53400536628 /* DecodableIgnore.swift */,
+				B4D49C592A2BF53400536628 /* DecodableKey.swift */,
+				B4D49C572A2BF53400536628 /* Utils.swift */,
+				B4D49C652A2BF54000536628 /* AboutApp.swift */,
+				B4D49C602A2BF54000536628 /* ChartView.swift */,
+				B4D49C632A2BF54000536628 /* ContentView.swift */,
+				B4D49C5E2A2BF54000536628 /* DataEditor.swift */,
+				B4D49C642A2BF54000536628 /* DataRow.swift */,
+				B4D49C5D2A2BF54000536628 /* DataView.swift */,
+				B4D49C5F2A2BF54000536628 /* DynamicStack.swift */,
+				B4D49C612A2BF54000536628 /* MoreInfoView.swift */,
+				B4D49C622A2BF54000536628 /* PairXYRow.swift */,
 				B4D49C352A2BF07E00536628 /* Preview Content */,
 			);
 			path = spline;
@@ -139,8 +191,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4D49C312A2BF07D00536628 /* ContentView.swift in Sources */,
-				B4D49C2F2A2BF07D00536628 /* splineApp.swift in Sources */,
+				B4D49C5C2A2BF53400536628 /* DecodableIgnore.swift in Sources */,
+				B4D49C672A2BF54000536628 /* DataEditor.swift in Sources */,
+				B4D49C6B2A2BF54000536628 /* DynamicStack.swift in Sources */,
+				B4D49C532A2BF52A00536628 /* Compairing.swift in Sources */,
+				B4D49C6D2A2BF54000536628 /* AboutApp.swift in Sources */,
+				B4D49C6A2A2BF54000536628 /* ChartView.swift in Sources */,
+				B4D49C662A2BF54000536628 /* DataView.swift in Sources */,
+				B4D49C5A2A2BF53400536628 /* DecodableKey.swift in Sources */,
+				B4D49C4F2A2BF52500536628 /* DataProvider.swift in Sources */,
+				B4D49C4E2A2BF52500536628 /* DataIn.swift in Sources */,
+				B4D49C682A2BF54000536628 /* PairXYRow.swift in Sources */,
+				B4D49C6C2A2BF54000536628 /* DataRow.swift in Sources */,
+				B4D49C552A2BF52A00536628 /* Interpolate.swift in Sources */,
+				B4D49C6E2A2BF54000536628 /* MoreInfoView.swift in Sources */,
+				B4D49C542A2BF52A00536628 /* Calculator.swift in Sources */,
+				B4D49C692A2BF54000536628 /* ContentView.swift in Sources */,
+				B4D49C4A2A2BF4C000536628 /* splineApp.swift in Sources */,
+				B4D49C5B2A2BF53400536628 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +355,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andr.zahar2.spline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,7 +395,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andr.zahar2.spline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

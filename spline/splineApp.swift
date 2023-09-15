@@ -1,17 +1,21 @@
-//
-//  splineApp.swift
-//  spline
-//
-//  Created by Андрей Захаров on 04.06.2023.
-//
-
 import SwiftUI
 
+/*
+ Точка входа программы. Указывает окно при запуске программы 
+ */
 @main
 struct splineApp: App {
+    @StateObject private var dataProvider = DataProvider()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(dataProvider: dataProvider)
+                .task {
+                    dataProvider.load()
+                }
+                .onChange(of: dataProvider.allData) { _ in
+                    dataProvider.save()
+                }
         }
     }
 }
